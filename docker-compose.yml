@@ -1,0 +1,9 @@
+version: "3"
+services:
+  genai-notebook:
+    build: .
+    volumes:
+    - ./jupyter:/home/jovyan/work
+    ports:
+    - 8889:8888
+    container_name:   genai-notebook
