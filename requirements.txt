@@ -4,3 +4,7 @@ kfp-server-api==2.0.3
 
 # jupyterlab extensions
 jupyterlab-git==0.44.0
+
+# Tensor libraries
+tensorrt==10.0.1
+tensorflow_datasets==4.9.4
